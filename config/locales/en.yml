@@ -1,16 +1,13 @@
 en:
-  hello: "Hello world"
-  layouts:
-    application:
-      title: Ruby on Rails Tutorial Sample App
   static_pages:
     home:
-      title: Home
-      name: Sample App
-      param_1: This is the home page for the
-      rails_link: Ruby on Rails Tutorial
-      rails_url: http://www.railstutorial.org/
-      param_2: sample application.
+      home: Welcome to the Sample App
+      h2_home: This is the home the page for
+        <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+        sample application.
+      content_signup: Sign up now!
+      alt_logo: Rails logo
+      alt_kitten: Kitten
     help:
       title: Help
       param_1: Get help on the Ruby on Rails Tutorial at the
@@ -21,7 +18,7 @@ en:
       book_url: http://www.railstutorial.org/book
       param_3: book
     about:
-      title: About
+      title: &title_about About
       param_1: The
       rails_link: Ruby on Rails Tutorial
       rails_url: http://www.railstutorial.org/
@@ -36,7 +33,26 @@ en:
       ruby_on_rails_book: http://rubyonrails.org/
       param_5: This is the sample application for the tutorial.
     contact:
-      title: Contact
+      title: &title_contact Contact
       param: Contact the Ruby on Rails Tutorial about the sample app at the
-      contact_link: contact page
+      contact_link: Contact page
       contact_url: http://www.railstutorial.org/contact
+
+  layouts:
+      header:
+        sample_app: Sample App
+        home: Home
+        help: Help
+        log_in: Log in
+      application:
+        title: Ruby on Rails Tutorial Sample App
+      footer:
+        small_line: The <a href = "http://www.railstutorial.org" > Ruby on Rails Tutorial</a>
+        michael_line: by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+        li_news: <a href="http://news.railstutorial.org/">News</a>
+        li_contact: *title_contact
+        li_about:  *title_about
+
+  users:
+    sign_up: Sign up
+    signup_content: This will be a signup page for new users.
