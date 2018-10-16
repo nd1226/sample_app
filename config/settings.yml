@@ -1,7 +1,8 @@
- user:
-     max_name_length: 50
-     max_email_length: 255
-     min_password_length: 6
-     size: 80
-     size_gravatar_index: 50
-     per_page: 15
+user:
+    max_name_length: 50
+    max_email_length: 255
+    min_password_length: 6
+    size: 80
+    size_gravatar_index: 50
+    per_page: 15
+    remember_me: "1"
