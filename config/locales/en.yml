@@ -54,5 +54,11 @@ en:
         li_about:  *title_about
 
   users:
-    sign_up: Sign up
-    signup_content: This will be a signup page for new users.
+    new:
+      sign_up: Sign up
+      signup_content: This will be a signup page for new users.
+      comfirm: Confirmation
+
+  shared:
+    error_messages:
+      form_contain: The form contains
