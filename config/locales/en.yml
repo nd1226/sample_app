@@ -39,26 +39,36 @@ en:
       contact_url: http://www.railstutorial.org/contact
 
   layouts:
-      header:
-        sample_app: Sample App
-        home: Home
-        help: Help
-        log_in: Log in
-      application:
-        title: Ruby on Rails Tutorial Sample App
-      footer:
-        small_line: The <a href = "http://www.railstutorial.org" > Ruby on Rails Tutorial</a>
-        michael_line: by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
-        li_news: <a href="http://news.railstutorial.org/">News</a>
-        li_contact: *title_contact
-        li_about:  *title_about
+    header:
+      sample_app: Sample App
+      home: Home
+      help: Help
+      log_in: Log in
+      user: User
+      profile: Profile
+      settings: Settings
+      log_out: Log out
+    application:
+      title: Ruby on Rails Tutorial Sample App
+    footer:
+      small_line: The <a href = "http://www.railstutorial.org" > Ruby on Rails Tutorial</a>
+      michael_line: by <a href="http://www.michaelhartl.com/">Michael Hartl</a>
+      li_news: <a href="http://news.railstutorial.org/">News</a>
+      li_contact: *title_contact
+      li_about:  *title_about
 
   users:
     new:
       sign_up: Sign up
       signup_content: This will be a signup page for new users.
-      comfirm: Confirmation
+      confirm: Confirmation
+      create_account: Create my account
 
   shared:
     error_messages:
       form_contain: The form contains
+  sessions:
+    new:
+      log_in: Log in
+      sign_up_now : Sign up now!
+      new_user: New user?
