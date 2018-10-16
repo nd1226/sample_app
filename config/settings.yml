@@ -4,7 +4,13 @@ user:
   min_password_length: 6
   size: 80
   size_gravatar_index: 50
-  per_page: 15
+  per_page: 10
   remember_me: "1"
   password_reset_expired: 2.hour.ago
-
+micropost:
+  maximum_content: 140
+  size_gravata: 50
+  per_page: 10
+  size_user_info: 50
+  feed_per_page: 15
+  size_piture: 5.megabytes

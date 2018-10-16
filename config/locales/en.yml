@@ -8,6 +8,7 @@ en:
       content_signup: Sign up now!
       alt_logo: Rails logo
       alt_kitten: Kitten
+      micropost_feed : Micropost Feed
     help:
       title: Help
       param_1: Get help on the Ruby on Rails Tutorial at the
@@ -90,6 +91,12 @@ en:
     error_messages:
       form_contain: The form contains
       error: error
+    user_info:
+      view_profile: View my profile
+      micropost: micropost
+    micropost_form:
+      conpose_new_micropost: Compose new micropost...
+      post: Post
 
   sessions:
     new:
@@ -137,3 +144,14 @@ en:
       reset_password: Reset password
       update_password: Update password
       confirm: Confirmation
+  micropost:
+    posted_time: Post %{time} ago
+    micropost_created: Micropost created!
+    you_sure: You sure ?
+    delete_succes: Delete success
+    delete_fail: Delete fail
+    delete: delete
+    micropost_deleted: Micropost deleted
+    size_maximum: Maximum file size is 5MB. Please choose a smaller file.
+    alert_size: Maximum file size is 5MB. Please choose a smaller file.
+    picture_size: Should be less than 5MB
