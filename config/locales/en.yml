@@ -69,6 +69,8 @@ en:
       form_contain: The form contains
   sessions:
     new:
+      new_user: New user?
+      remember: Remember me on this computer
       log_in: Log in
       sign_up_now : Sign up now!
-      new_user: New user?
+      invalid_pass : Invalid email/password combination
