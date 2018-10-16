@@ -85,29 +85,55 @@ en:
       account_activation: Account activation
       local: localhost:3000
       hello : Hello
+
   shared:
     error_messages:
       form_contain: The form contains
+      error: error
+
   sessions:
     new:
+      forgot_password: (Forgot password)
       new_user: New user?
       remember: Remember me on this computer
       log_in: Log in
       sign_up_now : Sign up now!
       invalid_pass : Invalid email/password combination
+
   activate:
     account_activation: Account activated!
     account_not_activated: Account not activated.Check your email
     invalid_account_activation: Invalid activation link
+
   activerecord:
     attributes:
       user:
-        name: Name
-        email: Email
-        password: Password
-        password_confirmation: Password Confirmation
+      name: Name
+      email: Email
+      password: Password
+      password_confirmation: Password Confirmation
+
   user_mailer:
     account_activation:
       hello: Hello %{name}
       activate: Activate
       welcome: Welcome to the Sample App! Click on the link below to activate your account
+    password_reset:
+      password_reset: Password reset
+      has_exprired: Password reset has expired.
+      link_reset: To reset your password click the link below
+      expire_password: This link will expire in two hours.
+      ignore_reset: If you did not request your password to be reset, please ignore this email and
+        your password will stay as it is.
+
+  password_resets:
+    sent_reset: Email sent with password reset instructions
+    email_not_found: Email address not found
+    password_reset: Password has been reset.
+    cant_empty: Can't be empty
+    new:
+      forgot_password: Forgot password
+    edit:
+      reset_password: Reset password
+      update_password: Update password
+      confirm: Confirmation
