@@ -63,7 +63,23 @@ en:
       signup_content: This will be a signup page for new users.
       confirm: Confirmation
       create_account: Create my account
-
+    edit:
+      edit_user: Edit user
+      update_profile: Update your profile
+      save_changes: Save changes
+      change: Change
+      link: http://gravatar.com/emails
+      profile_update: Profile updated
+      require_login: Please log in.
+    index:
+        user: User
+        all_users: All users
+        user_not_found : User Not Found!
+    destroy:
+      confirm: Your sure?
+      user_delete: User deleted
+      delete_fail: Delete fail
+      delete: delete
   shared:
     error_messages:
       form_contain: The form contains
@@ -74,3 +90,11 @@ en:
       log_in: Log in
       sign_up_now : Sign up now!
       invalid_pass : Invalid email/password combination
+  activerecord:
+    attributes:
+      user:
+        name: Name
+        email: Email
+        password: Password
+        password_confirmation: Password Confirmation
+
