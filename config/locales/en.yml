@@ -63,6 +63,7 @@ en:
       signup_content: This will be a signup page for new users.
       confirm: Confirmation
       create_account: Create my account
+      check_mail : Please check your email to activate your account.
     edit:
       edit_user: Edit user
       update_profile: Update your profile
@@ -79,7 +80,11 @@ en:
       confirm: Your sure?
       user_delete: User deleted
       delete_fail: Delete fail
-      delete: delete
+      delete: Delete
+    mailer:
+      account_activation: Account activation
+      local: localhost:3000
+      hello : Hello
   shared:
     error_messages:
       form_contain: The form contains
@@ -90,6 +95,10 @@ en:
       log_in: Log in
       sign_up_now : Sign up now!
       invalid_pass : Invalid email/password combination
+  activate:
+    account_activation: Account activated!
+    account_not_activated: Account not activated.Check your email
+    invalid_account_activation: Invalid activation link
   activerecord:
     attributes:
       user:
@@ -97,4 +106,8 @@ en:
         email: Email
         password: Password
         password_confirmation: Password Confirmation
-
+  user_mailer:
+    account_activation:
+      hello: Hello %{name}
+      activate: Activate
+      welcome: Welcome to the Sample App! Click on the link below to activate your account
